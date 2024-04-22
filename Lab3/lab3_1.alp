@@ -2936,7 +2936,7 @@
 					<ShowLegend>true</ShowLegend>
 					<ShowPDF>true</ShowPDF>
 					<ShowCDF>false</ShowCDF>
-					<ShowMean>false</ShowMean>
+					<ShowMean>true</ShowMean>
 					<Bars>
 						<Direction>UP</Direction>
 						<RelativeWidth>0.8</RelativeWidth>
@@ -3000,7 +3000,7 @@
 					<ShowLegend>true</ShowLegend>
 					<ShowPDF>true</ShowPDF>
 					<ShowCDF>false</ShowCDF>
-					<ShowMean>false</ShowMean>
+					<ShowMean>true</ShowMean>
 					<Bars>
 						<Direction>UP</Direction>
 						<RelativeWidth>0.8</RelativeWidth>
