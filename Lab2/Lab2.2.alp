@@ -4,10 +4,10 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.8.3.202304281216" AlpVersion="8.7.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.9.0.202404161236" AlpVersion="8.9.0">
 <Model>
 	<Id>1709627754254</Id>
-	<Name><![CDATA[Lab2.2]]></Name>
+	<Name><![CDATA[Lab2]]></Name>
 	<EngineVersion>6</EngineVersion>
 	<JavaPackageName><![CDATA[model]]></JavaPackageName>
 	<ModelTimeUnit><![CDATA[Hour]]></ModelTimeUnit>
@@ -377,7 +377,7 @@
 					<ShowLabel>true</ShowLabel>
 					<ResourceReference>
 						<PackageName><![CDATA[model]]></PackageName>
-						<ClassName><![CDATA[E:/Лист Microsoft Excel (2).xlsx]]></ClassName>
+						<ClassName><![CDATA[Лист Microsoft Excel (2).xlsx]]></ClassName>
 					</ResourceReference>
 					<SaveInSnapshot>false</SaveInSnapshot>
 					<LoadOnStartup>true</LoadOnStartup>
@@ -1483,8 +1483,9 @@
 	</Experiments>
 	<ModelResources>
 		<Resource>
-			<Path><![CDATA[E:/Лист Microsoft Excel (2).xlsx]]></Path>
+			<Path><![CDATA[Лист Microsoft Excel (2).xlsx]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
 		</Resource>
 	</ModelResources>
     <RequiredLibraryReference>
