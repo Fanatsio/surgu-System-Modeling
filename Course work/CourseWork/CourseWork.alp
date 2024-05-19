@@ -19,7 +19,15 @@
 			<DestroyCode><![CDATA[excelFile.writeDataSet(timeMeasureEnd.dataset, "Лист1", 3, 1);
 excelFile.writeDataSet(timeMeasureEnd1.dataset, "Лист1", 3, 3);
 excelFile.writeDataSet(timeMeasureEnd2.dataset, "Лист1", 3, 5);
-]]></DestroyCode>
+excelFile.setCellValue(timeEnterBefore, "Лист1", 11, 13);
+excelFile.setCellValue(timeEnterAfter, "Лист1", 11, 14);
+excelFile.setCellValue(timeUPDBefore, "Лист1", 12, 13);
+excelFile.setCellValue(timeUPDAfter, "Лист1", 12, 14);
+excelFile.setCellValue(timeEVM, "Лист1", 13, 13);
+excelFile.setCellValue(quantityEVM, "Лист1", 14, 13);
+excelFile.setCellValue(quantityUPD, "Лист1", 15, 13);
+excelFile.setCellValue(probabilityOfReturn, "Лист1", 16, 13);
+excelFile.setCellValue(probabilityOfOnlyEVM, "Лист1", 17, 13);]]></DestroyCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1714399937943</Id>
